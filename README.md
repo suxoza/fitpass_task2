@@ -4,5 +4,5 @@ requirements:
 
 how to install:
     composer install
-    touch database/database.sqlite
-    php8.0 artisan migrate --seed
+    php artisan serve
+    for development: npm install and "yarn hot || yarn watch || npm run watch ...."
